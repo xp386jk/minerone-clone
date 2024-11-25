@@ -3,10 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MinerOne Clone - Cloud Mining Services">
     <title>MinerOne Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #0078d7;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .plans {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .plan {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            width: 250px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .plan h3 {
+            margin: 10px 0;
+        }
+        .plan p {
+            margin: 5px 0;
+        }
+        .plan button {
+            background-color: #0078d7;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        .plan button:hover {
+            background-color: #005bb5;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to MinerOne Clone</h1>
-    <p>Choose your cloud mining plans!</p>
+    <header>
+        <h1>MinerOne Clone</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Plans</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Our Mining Plans</h2>
+        <div class="plans">
+            <div class="plan">
+                <h3>Starter Plan</h3>
+                <p>Price: $10</p>
+                <p>Hashrate: 50 MH/s</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="plan">
+                <h3>Pro Plan</h3>
+                <p>Price: $50</p>
+                <p>Hashrate: 300 MH/s</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="plan">
+                <h3>Ultimate Plan</h3>
+                <p>Price: $100</p>
+                <p>Hashrate: 700 MH/s</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 MinerOne Clone. All rights reserved.</p>
+    </footer>
 </body>
 </html>
